@@ -1,8 +1,6 @@
 # Election-Analysis-
 
-###########
-# -*- coding: UTF-8 -*-
-"""PyPoll Homework Challenge Solution."""
+```
 
 # Add our dependencies.
 import csv
@@ -170,13 +168,13 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
-########################################################
+```
 
-Overview of Election Audit: Explain the purpose of this election audit analysis.
+### Overview of Election Audit: Explain the purpose of this election audit analysis.
 
 The purpose of thise challenge was to use python to extract election results by counties.
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+### Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
 These are the outcome of the election:
 County Votes:
@@ -202,7 +200,7 @@ Winner: Diana DeGette
 Winning Vote Count: 272,892
 Winning Percentage: 73.8%
 
-How many votes were cast in this congressional election?
+### How many votes were cast in this congressional election?
 
 369,711 VOTES
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
@@ -211,10 +209,10 @@ Which county had the largest number of votes?
 DENVER HAD THE LARGEST NUMBER OF VOTES 
 
 
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 DIANA HAD 73.8% OF THE VOTES WITH 272,892 VOTES 
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections. 
 
 THIS IS A GREAT SOURCE OF CODE AS WE CAN EASILY SUMAMRIZE HOW ANY CANDIDATE IS PERFORMING WITH A VERY NUANCED PERSPECTIVE. THIS CAN EVEN BE USED AT THE STATE LEVEL TO SEE HOW CANDIDATES ACROSS THE COUNTRY ARE DOING, WITH SMALL MODIFICATIONS TO THE NUMBER OF PLACES
